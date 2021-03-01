@@ -41,6 +41,7 @@ export class DatePicker extends React.Component {
       timeZoneOffsetInMinutes
     } = this.props;
 
+    // eslint-disable-next-line no-unused-vars
     const variables = this.context.theme
       ? this.context.theme['@@shoutem.theme/themeStyle'].variables
       : variable;
